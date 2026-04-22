@@ -1,0 +1,6 @@
+Check 1 — Final output: 199.9908 Nm (setpoint: 200.0)
+          Steady-state error: 0.0092 Nm
+Check 2 — Control signal range: [0.9983, 1.0000] (clamped: True)
+Check 3 — Settled within 2% band: True
+
+Verification PASSED

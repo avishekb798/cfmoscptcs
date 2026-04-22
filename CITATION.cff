@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: >-
+  CFMOSCPTCS — A Computational Framework for Modeling and Optimization of
+  Sensor-Constrained Powertrain Torque Control Systems
+message: >-
+  If you use or reference this project, please cite it using the metadata
+  below.
+type: software
+authors:
+  - given-names: Avishek
+    family-names: Barua
+repository-code: https://github.com/avishekb798/cfmoscptcs
+abstract: >-
+  A simulation-based computational framework that models a simplified
+  powertrain torque control system, injects five types of realistic sensor
+  imperfections (noise, bias, drift, sampling rate limitations, and signal
+  delay) into the feedback loop, measures the resulting performance
+  degradation through RMS error, overshoot, and settling time, and uses
+  grid search optimization across 16,807 configurations to identify optimal
+  sensor configurations. Developed as a senior design project at California
+  State University, Dominguez Hills.
+keywords:
+  - powertrain
+  - torque control
+  - PID controller
+  - sensor imperfections
+  - grid search optimization
+  - simulation framework
+license: MIT
+date-released: "2026-05-08"

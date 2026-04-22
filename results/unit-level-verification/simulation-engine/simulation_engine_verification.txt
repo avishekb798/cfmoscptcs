@@ -1,0 +1,10 @@
+Check 1 — History lengths:
+  Baseline: {'time': 5000, 'output': 5000, 'setpoint': 5000, 'control': 5000, 'measured': 5000} — OK
+  Degraded: {'time': 5000, 'output': 5000, 'setpoint': 5000, 'control': 5000, 'measured': 5000} — OK
+
+Check 2 — Baseline final output: 199.9908 Nm (setpoint: 200.0)
+Check 3 — Mean absolute difference (degraded vs baseline): 75.3556 Nm
+          Sensor imperfections had an effect
+Check 4 — Mean sensor corruption: 7.2525 Nm
+
+Verification PASSED

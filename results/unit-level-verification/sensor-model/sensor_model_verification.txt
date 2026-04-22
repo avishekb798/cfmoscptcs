@@ -1,0 +1,7 @@
+Test 1 — Noise: measured std=5.498 (expected ≈5.0)
+Test 2 — Bias: measured mean=109.950 (expected 110.0)
+Test 3 — Drift: final=109.995 (expected ≈109.995)
+Test 4 — Sampling: 20 unique values over 2000 steps (expected ≈20)
+Test 5 — Delay: signal appears at t=0.551s (expected ≈0.550s)
+
+All five imperfection models verified individually.

@@ -1,0 +1,5 @@
+IMC Tuning Verification: 140 → 150 Nm Step Response
+  Settling time: 0.4300 s (expected ~0.4 s)
+  Overshoot:     0.0000 %
+  Control range: [0.7500, 0.9509] (clamp at 1.0)
+  Clamp hit:     No — linear region confirmed

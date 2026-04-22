@@ -1,0 +1,10 @@
+Configuration         RMS Error (Nm)   Overshoot (%)    Settling (s)
+-----------------------------------------------------------------
+Baseline                     27.3440          0.0000          1.5090
+Noise Only                   27.3601          0.1693          1.5460
+Bias Only                    29.5029          0.0000          4.9990
+Drift Only                   28.0468          0.0000          4.9990
+Sampling Only                27.3402          0.0000          1.5170
+Delay Only                   27.3254          0.0000          1.5200
+Mild Combined                27.8822          0.0000          4.9990
+Severe Combined              39.7533          0.0000          4.9990
