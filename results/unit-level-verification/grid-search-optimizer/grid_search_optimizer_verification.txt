@@ -1,0 +1,55 @@
+Grid search: 16 combinations to evaluate
+  Progress: 1/16 (6%)
+  Progress: 2/16 (12%)
+  Progress: 3/16 (19%)
+  Progress: 4/16 (25%)
+  Progress: 5/16 (31%)
+  Progress: 6/16 (38%)
+  Progress: 7/16 (44%)
+  Progress: 8/16 (50%)
+  Progress: 9/16 (56%)
+  Progress: 10/16 (62%)
+  Progress: 11/16 (69%)
+  Progress: 12/16 (75%)
+  Progress: 13/16 (81%)
+  Progress: 14/16 (88%)
+  Progress: 15/16 (94%)
+  Progress: 16/16 (100%)
+
+Grid search complete. Best RMS error: 58.0637 Nm
+
+Check 1 — Result count: 16 (expected: 16)
+Check 2 — Optimal config:
+  noise_std = 0.0
+  bias = 0.0
+  RMS error = 58.0637 Nm
+
+Check 3 — RMS error increases with noise (bias=0):
+  noise_std=  0.0 → RMS=58.0637
+  noise_std=  2.0 → RMS=100.5463
+  noise_std=  5.0 → RMS=111.1179
+  noise_std= 10.0 → RMS=115.0835
+
+Check 4 — DataFrame columns: ['noise_std', 'bias', 'drift_rate', 'sampling_period', 'delay_steps', 'rms_error', 'overshoot', 'settling_time']
+          DataFrame shape: (16, 8)
+
+Full results:
+ noise_std  bias  drift_rate  sampling_period  delay_steps  rms_error  overshoot  settling_time
+       0.0   0.0         0.0            0.001            0  58.063691        0.0          2.298
+       0.0   3.0         0.0            0.001            0  58.104548        0.0          2.446
+       0.0   6.0         0.0            0.001            0  58.215590        0.0          2.999
+       0.0  10.0         0.0            0.001            0  58.510489        0.0          2.999
+       2.0   0.0         0.0            0.001            0 100.546345        0.0          2.999
+       2.0   3.0         0.0            0.001            0 100.970948        0.0          2.999
+       2.0   6.0         0.0            0.001            0 101.861095        0.0          2.999
+       2.0  10.0         0.0            0.001            0 102.356579        0.0          2.999
+       5.0   0.0         0.0            0.001            0 111.117893        0.0          2.999
+       5.0   3.0         0.0            0.001            0 112.026637        0.0          2.999
+       5.0   6.0         0.0            0.001            0 112.876026        0.0          2.999
+       5.0  10.0         0.0            0.001            0 113.958646        0.0          2.999
+      10.0   0.0         0.0            0.001            0 115.083531        0.0          2.999
+      10.0   3.0         0.0            0.001            0 115.098986        0.0          2.999
+      10.0   6.0         0.0            0.001            0 115.479112        0.0          2.999
+      10.0  10.0         0.0            0.001            0 116.146182        0.0          2.999
+
+Verification PASSED

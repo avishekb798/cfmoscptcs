@@ -1,0 +1,15 @@
+Baseline Metrics:
+  RMS Error:      44.7754 Nm
+  Overshoot:      0.0000 %
+  Settling Time:  1.9580 s
+
+Degraded Metrics:
+  RMS Error:      99.5224 Nm
+  Overshoot:      0.0000 %
+  Settling Time:  4.9990 s
+
+Check 1 — Degraded RMS > Baseline RMS: 99.5224 > 44.7754 → True
+Check 2 — Baseline settled: True  |  Degraded settled: True
+Check 3 — Baseline overshoot is 0%: True
+
+Verification PASSED

@@ -1,0 +1,19 @@
+Running small grid search for heatmap/surface plots...
+Grid search: 25 combinations to evaluate
+  Progress: 2/25 (8%)
+  Progress: 4/25 (16%)
+  Progress: 6/25 (24%)
+  Progress: 8/25 (32%)
+  Progress: 10/25 (40%)
+  Progress: 12/25 (48%)
+  Progress: 14/25 (56%)
+  Progress: 16/25 (64%)
+  Progress: 18/25 (72%)
+  Progress: 20/25 (80%)
+  Progress: 22/25 (88%)
+  Progress: 24/25 (96%)
+  Progress: 25/25 (100%)
+
+Grid search complete. Best RMS error: 44.9776 Nm
+
+All five plots generated — Visualizer verification complete.

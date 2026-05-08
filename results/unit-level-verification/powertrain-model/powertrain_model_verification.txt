@@ -1,0 +1,7 @@
+Check 1 — Steady-state output: 199.9909 Nm (expected: 200.0)
+Check 2 — Output at t=τ:        126.5711 Nm (expected: 126.4241)
+
+Steady-state error: 0.009080 Nm
+Time-constant error: 0.147005 Nm
+
+Verification PASSED
